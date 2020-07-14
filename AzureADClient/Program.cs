@@ -58,9 +58,10 @@ namespace AzureADClient
         }
 
         #region Local helpers
-       
+
         /// <summary>
         /// Generates Client Assertion and builds ClientApp
+        /// Ref: https://docs.microsoft.com/en-us/azure/active-directory/develop/msal-net-client-assertions
         /// </summary>
         /// <returns></returns>
         private static IConfidentialClientApplication BuildClientUsingClientAssertion()
